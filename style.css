@@ -41,7 +41,9 @@ body{
     border: none;
     border-bottom: 1px solid #000;
 }
-.banner_section{
+.inside-banner-section{
+    max-width: 900px;
+    margin: 0 auto;
     height: 500px;
     margin-top: 150px;
     background-image: url('/Images/watches.jpg');
