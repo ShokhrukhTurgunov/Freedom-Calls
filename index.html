@@ -4,88 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Freedom Calls</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <!-- HEADER START -->
+   <!-- HEADER  -->
    <header class="site_header">
-       <div class="container">
-           <div class="inside_header">
-            <div class="header_left">
+       <div class="container header-container">
+            <div class="logo-box">
                 <a href="#" class="logo_link">
-                    <img src="/Images/logo.svg" alt="header-image" class="header_img">
+                    <img src="/Images/logo.svg" alt="logo-image" class="logo_img" width="50" height="50">
                 </a>
             </div>
-            <div class="header_right">
+            <nav class="sitenav">
                 <ul class="nav_list">
                     <li class="nav_item"><a href="#" class="nav_link">About</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Offers</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Services</a></li>
                 </ul>
-                <input type="search" class="search_input" placeholder="How we can help you?">
-            </div>
-           </div>
+                <form method="POST" class="search-form">
+                    <label class="visually-hidden" for="input">Search-input-label</label>
+                    <input type="search" class="search_input" id="input" placeholder="How we can help you?">
+                </form>
+            </nav>
        </div>
    </header>
-   <!-- HEADER END -->
 
-   <!-- BANNER START -->
+   <!-- BANNER  -->
    <section class="banner_section">
        <div class="container">
-            <h1 class="banner_title">Freedom calls</h1>
-            <p class="banner_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero accusantium, earum tempora ex deleniti. Quisquam voluptate reiciendis alias quae praesentium? Tempora, natus. Consequatur odio nostrum laborum eveniet ut porro.</p>
-            <a href="#" class="banner_link">Watch the keynote</a>
+           <h1 class="banner_title">Freedom calls</h1>
+           <p class="banner_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero accusantium, earum tempora ex deleniti. Quisquam voluptate reiciendis alias quae praesentium? Tempora, natus. Consequatur odio nostrum laborum eveniet ut porro.</p>
+           <a href="#" class="banner_link">Watch the keynote</a>
        </div>
    </section>
-   <!-- BANNER END -->
 
-   <!-- MAIN START -->
+   <!-- MAIN SECTION  -->
    <section class="main_section">
+       <h2 class="visually-hidden">Main-section-title</h2>
        <div class="container">
         <ul class="main_list">
             <li class="main_item">
-                <h4 class="text_title">Know your runs. In and out.</h4>
-                <p class="main_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ipsam corrupti nesciunt excepturi iure. Veniam, porro eligendi debitis, officia nesciunt aut alias velit quod, consequuntur minima commodi fuga natus enim?</p>
+                <h3 class="main_item_title">Know your runs. In and out.</h3>
+                <p class="main_item_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ipsam corrupti nesciunt excepturi iure. Veniam, porro eligendi debitis, officia nesciunt aut alias velit quod, consequuntur minima commodi fuga natus enim?</p>
              </li>
             <li class="main_item">
-                <h4 class="text_title">Run in good spirits.</h4>
-                <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis esse voluptates fuga reiciendis expedita quam sit nobis inventore! Tempore, sed?</p>
+                <h3 class="main_item_title">Run in good spirits.</h3>
+                <p class="main_item_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis esse voluptates fuga reiciendis expedita quam sit nobis inventore! Tempore, sed?</p>
              </li>
             <li class="main_item">
-                <h4 class="text_title">Just do it. Sunday.</h4>
-                <p class="main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus hic quasi deserunt vero, neque quam.</p>
-                <a href="#" class="main_text_link">Learn more</a>
+                <h3 class="main_item_title">Just do it. Sunday.</h3>
+                <p class="main_item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus hic quasi deserunt vero, neque quam.</p>
+                <a href="#" class="main_item_link">Learn more</a>
              </li>
         </ul>
        </div>
    </section>
-   <!-- MAIN END -->
-   <!-- SECOND SECTION -->
-    <section class="second_section">
-        <div class="container">
-            <div class="section_inside">
-                <h1 class="second_title">Nike sport band. <br> Light. Flexible. <br>
-                    Breathable.</h1>
-                <p class="second_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus earum porro, ex architecto sit ullam veniam, magni eum, blanditiis eligendi tenetur inventore rem ab ea.</p>
-                <a href="#" class="second_link">Buy now</a>
-            </div>
+
+
+   <!-- BUY SECTION -->
+    <section class="buy-section">
+        <div class="container buy-section-container">
+            <h2 class="buy-section-title">Nike sport band. Light. Flexible.
+                Breathable.</h2>
+            <p class="buy-section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus earum porro, ex architecto sit ullam veniam, magni eum, blanditiis eligendi tenetur inventore rem ab ea.</p>
+            <a href="#" class="buy-section-link">Buy now</a>
         </div>
     </section>
-   <!-- SECOND SECTION -->
+   
 
    <!-- FOOTER -->
     <div class="footer">
         <div class="container">
-            <div class="inside_footer">
-                <h2 class="footer_title">Take control of your <br> health</h2>
-                <p class="footer_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi earum rerum ipsam laborum optio, maxime reiciendis aspernatur nostrum facere, voluptates nesciunt eveniet unde nulla eligendi?</p>
+            <div class="footer-wrapper">
+                <h2 class="footer_title">Take control of your health</h2>
+                <p class="footer_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi earum rerum ipsam laborum optio, maxime reiciendis aspernatur nostrum facere, voluptates nesciunt eveniet unde nulla eligendi?
+                </p>
                 <a href="#" class="footer_link">Explore features</a>
             </div>
         </div>
     </div>
-   <!-- FOOTER -->
 </body>
 </html>
